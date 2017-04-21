@@ -10,7 +10,7 @@ public class Main {
         Boolean isPrime;
         int sum = 0;
         int countOfPrimes = 0;
-        int number = 1;
+        int number = 2;
         
         // Iterate through the first 1000 prime numbers
         while(countOfPrimes < 1000)
@@ -32,7 +32,9 @@ public class Main {
             {
                 sum += number;
                 countOfPrimes++;
-            }   
+            }
+            
+            number++;
         }
         System.out.println(sum);
     }
